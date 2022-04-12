@@ -1,0 +1,7 @@
+spring:
+    main:
+        web-application-type: reactive
+
+    mongodb:
+        embedded:
+            version: 3.5.5
