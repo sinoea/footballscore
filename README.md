@@ -40,3 +40,4 @@ Follow the below steps to clone the repo and run the application:
 
    Now refresh the scores page to verify that the score has indeed been deleted.
   
+TEST
