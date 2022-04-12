@@ -39,5 +39,3 @@ Follow the below steps to clone the repo and run the application:
    curl -X DELETE -H 'Content-Type:application/json' http://localhost:8080/scores/{id}
 
    Now refresh the scores page to verify that the score has indeed been deleted.
-  
-TEST
