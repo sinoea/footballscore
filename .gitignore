@@ -3,10 +3,6 @@
 # ------------------------------------------------------------------------------ #
 *.class
 
-# Package Files #
-*.jar
-*.war
-*.ear
 
 # --------------------------------------------------------------------------------------
 #
@@ -63,9 +59,3 @@ src/main/webapp/META-INF/MANIFEST.MF
 src/main/webapp/WEB-INF/classes/
 src/main/webapp/WEB-INF/lib/
 
-
-Gemfile.lock
-node_modules
-*/SitePreferenceFilter.java
-/src/main/java/com/blueplustechnologies/plastocart/filter/
-src/main/java/com/blueplustechnologies/plastocart/filter/
