@@ -13,7 +13,7 @@ This example shows how to build a Football Score Spring WebFlux API with real-ti
 Follow the below steps to clone the repo and run the application:
 
 1. git clone https://github.com/sinoea/footballscore.git
-2. Open your terminal and navigate to the root folder of the repo (cd {You path}/footballscore)
+2. Open your terminal and navigate to the root folder of the repo (cd {Your path}/footballscore)
 3. Run the application by the following command: mvn spring-boot:run
 4. To see if the application is running visit the below URIs in your browser:
     - http://localhost:8080/scores (To view scores for all teams)
@@ -39,3 +39,6 @@ Follow the below steps to clone the repo and run the application:
    curl -X DELETE -H 'Content-Type:application/json' http://localhost:8080/scores/{id}
 
    Now refresh the scores page to verify that the score has indeed been deleted.
+   
+   
+This completes the testing of the application that supports the GET, POST, DELETE and PUT methods for the /scores endpoint and GET for the /live/scores endpoint.
